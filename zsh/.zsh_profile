@@ -20,4 +20,4 @@ bindkey -s ^f "tmux-sessionizer\n"
 addToPathFront $HOME/.local/bin
 addToPathFront $HOME/.local/scripts
 addToPathFront $HOME/.local/bin
-
+addToPathFront $HOME/.local/go/bin
