@@ -9,7 +9,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -17,8 +17,7 @@ font pango:monospace 15px
 
 # start picom on the start
 exec --no-startup-id picom
-exec --no-startup-id pulseaudio --start
-exec --no-startup-id feh --bg-max ~/.config/background/archwaifu.jpg
+exec --no-startup-id feh --bg-max ~/.config/background/archimage.jpg
 # GET DEM BORDERS OUT OF HEREc:w
 #
 # Thanks Childz

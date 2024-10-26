@@ -1,6 +1,6 @@
 return {
     {
-        "willianboman/mason.nvim",
+        "williamboman/mason.nvim",
         dependencies = {
             "williamboman/mason.nvim",
             "williamboman/mason-lspconfig.nvim"
