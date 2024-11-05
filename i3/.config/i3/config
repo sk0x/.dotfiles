@@ -17,7 +17,7 @@ font pango:monospace 15px
 
 # start picom on the start
 exec --no-startup-id picom
-exec --no-startup-id feh --bg-max ~/.config/background/archimage.jpg
+exec --no-startup-id feh --bg-max ~/.config/background/wallpaper1.jpg
 # GET DEM BORDERS OUT OF HEREc:w
 #
 # Thanks Childz
