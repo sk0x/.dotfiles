@@ -1,4 +1,6 @@
+-- finding local path of lazy
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+-- cloning lazy repo
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
     "git",
@@ -9,9 +11,11 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
+
 vim.opt.rtp:prepend(lazypath)
 
+-- providing plugin path
 require("lazy").setup({
     spec = "skmishra.lazy",
-    change_detection = { notify = false }
+    change_detection = {notify=false}
 })

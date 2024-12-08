@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-
 alias my_ip="ip address | grep -o \"inet 192.*/\" | awk '{ print \$2 }' | tr / ' ' | xargs"
-
 #!/usr/bin/env bash
+# file paths
+alias kitty_conf="cd ~/.dotfiles/kitty/.config/kitty"
+alias nvim_conf="cd ~/.dotfiles/nvim/.config/nvim"
+alias backgrounds="cd ~/.dotfiles/background/.config/background"
+alias i3_conf="cd ~/.dotfiles/i3/.config/i3"
+alias dotfiles="cd ~/.dotfiles"
 alias work="cd ~/work"
+# programs
 alias vim="$VIM"
-
-
-
 
