@@ -17,7 +17,7 @@ font pango:monospace 15px
 
 # start picom on the start
 exec --no-startup-id picom
-exec --no-startup-id feh --no-fehbg --bg-fill --randomize ~/.config/wallpapers/*.jpg
+exec --no-startup-id feh --no-fehbg --bg-fill ~/.config/i3/boy_image.jpg
 # GET DEM BORDERS OUT OF HEREc:w
 #
 # Thanks Childz
