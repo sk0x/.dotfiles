@@ -1,0 +1,3 @@
+#!/bin/bash
+# Start docker postgresql database
+docker run --rm --name postgresql -e POSTGRES_PASSWORD=mypassword -e POSTGRES_USER=myuser -e POSTGRES_DB=postgresdb -p 5432:5432 postgres
