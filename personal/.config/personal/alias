@@ -7,6 +7,7 @@ alias nvim_conf="cd ~/.dotfiles/nvim/.config/nvim"
 alias i3_conf="cd ~/.dotfiles/i3/.config/i3"
 alias dotfiles="cd ~/.dotfiles"
 alias work="cd ~/work"
+alias mysqldb_stop="docker stop mysql_container"
 
 # programs
 alias vim="$VIM"

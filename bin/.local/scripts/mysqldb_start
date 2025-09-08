@@ -1,8 +1,11 @@
 #!/bin/bash
 
+echo "MYSQL CONNECTION METHODS \n URL: jdbc:mysql://sqluser:sqlpassword@localhost:3306/mysqldb"
 docker run --rm --name mysql_container \
   -e MYSQL_ROOT_PASSWORD=mypassword \
   -e MYSQL_DATABASE=mysqldb \
   -e MYSQL_USER=sqluser \
   -e MYSQL_PASSWORD=sqlpassword \
   -p 3306:3306 mysql:latest
+
+
